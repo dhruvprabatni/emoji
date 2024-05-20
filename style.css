@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-image: radial-gradient(yellow, orange 80%);
+    width: 100%;
+    height: 47vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-1 {
+    background-color: white;
+    width: 30vw;
+    height: 38vw;
+    border-radius: 30px;
+}
+
+.emoji {
+    margin-top: 2vw;
+    color: green;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.button-emoji button,
+.button-emoji1 button {
+    background-color: rgb(42, 42, 255);
+    height: 3vw;
+    width: 12vw;
+    gap: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    /* text-align: center; */
+    display: flex;
+    font-size: 1.2vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-emoji,
+.button-emoji1,
+.button-emoji2 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-emoji {
+    margin-top: 3vw;
+}
+
+.button-emoji1 {
+    margin-top: 1vw;
+}
+
+.button-emoji2 button {
+    margin-top: 1vw;
+    background-color: rgb(42, 42, 255);
+    color: white;
+    font-size: 1.2vw;
+    height: 4vw;
+    border-radius: 10px;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+#happy
+{
+    text-align: center;
+    font-size: 8vw;
+}
+
+#load {
+    text-align: center;
+    font-size: 2.5vw;
+    margin-top: 1.5vw;
+}
+
+
+@media (max-width:600px) {
+
+    main{
+        height: 203vw;
+    }
+    .sec-1
+    {
+        height: 110vw;
+        width: 80vw;
+    }
+    .button-emoji button,
+.button-emoji1 button
+{
+font-size: 4vw;
+height: 10vw;
+width: 30vw;
+}
+.emoji
+{
+    font-size: 5vw;
+    margin-top: 5vw;
+}
+.button-emoji2 button
+{
+    font-size: 4vw;
+    height: 15vw;
+    width: 40vw;
+}
+#happy
+{
+    font-size: 18vw;
+    margin-top: 3vw;
+}
+#load
+{
+    font-size: 7vw;
+    margin-top: 5vw;
+}
+.button-emoji {
+    margin-top: 10vw;
+}
+
+.button-emoji1 {
+    margin-top: 4vw;
+}
+.button-emoji2
+{
+    margin-top: 4vw;
+}
+}
